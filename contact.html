@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Zahra Irandegani</title>
+  <meta content="This is related to my course project" name="description">
+  <meta content="" name="keywords">
+
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <header id="header" class="fixed-top">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="resume.html">CV</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://github.com/ZahraIrandegani" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/zahra-irandegani-7389a221b/" class="linkedin"><i
+            class="bi bi-linkedin"></i></i></a>
+        <a href="mailto:zahra.irandegani@ucalgary.ca" class="email"><i class="bi bi-envelope"></i></a>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main id="main">
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Get in Touch</h2>
+          <p>I'm always interested in discussing research opportunities, collaborations, or answering any questions about my work in GIS and geospatial data analysis.</p>
+        </div>
+
+        <!-- Map -->
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10026.059982987399!2d-114.1326832!3d51.0805026!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717db7481cb3b1%3A0x36aff4a9e3c803fb!2sUniversity%20of%20Calgary!5e0!3m2!1sen!2sca!4v1674090228559!5m2!1sen!2sca"
+            frameborder="0"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="contact-map">
+          </iframe>
+        </div>
+
+        <div class="row mt-5">
+          <!-- Contact Information -->
+          <div class="col-lg-4">
+            <div class="contact-info">
+              <div class="contact-card location">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location</h4>
+                <p>University of Calgary<br>2500 University Dr NW<br>Calgary, AB T2N 1N4</p>
+              </div>
+
+              <div class="contact-card email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email</h4>
+                <p><a href="mailto:zahra.irandegani@ucalgary.ca">zahra.irandegani@ucalgary.ca</a></p>
+              </div>
+
+              <div class="contact-card social">
+                <i class="bi bi-people"></i>
+                <h4>Social Profiles</h4>
+                <div class="social-links">
+                  <a href="https://github.com/ZahraIrandegani" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                  <a href="https://www.linkedin.com/in/zahra-irandegani-7389a221b/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="contact-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="col-md-6 form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" name="message" id="message" rows="5" required></textarea>
+              </div>
+              
+              <div class="form-status">
+                <div class="loading">Sending message...</div>
+                <div class="error-message">There was an error sending your message</div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              
+              <div class="text-center">
+                <button type="submit" class="submit-btn">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
